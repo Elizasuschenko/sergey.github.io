@@ -365,6 +365,7 @@ footer ul li a{
 }
 footer .social {
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 footer .social .soc-block{
 	text-align: center;
@@ -408,7 +409,15 @@ footer .social .soc-block a:hover .fa-vk{
 footer p{
 	margin-bottom: 0;
 }
-
+@media (min-width:320px) and (max-width:430px){
+	#works .little-list{
+		width: 49.4% !important;
+		height: 100% !important;
+	}
+	#works .little-list h3{
+		font-size: 11px!important;
+	}
+}
 @media (min-width:320px) and (max-width:480px) {
 	header .avatar{
 	width: 100px;
@@ -465,7 +474,7 @@ header .soc div:hover a span{
 #about .new{
 	width: 100%;
 	margin: 0;
-	margin-top: 205px;
+	margin-top: 290px;
 }
 #about .text{
 	width: 100%;
@@ -485,6 +494,7 @@ header .soc div:hover a span{
 }
 .list{
 	margin: 15px 0px 3px;
+	height: 100%;
 }
 .list:first-of-type{
 	margin-left: 0px;
@@ -500,6 +510,7 @@ header .soc div:hover a span{
 .list-img:hover img{
 	margin-right: 0;
 	margin-left: 0;
+	margin-bottom: -6%;
 }
 #works{
 	padding: 30px;
@@ -511,7 +522,7 @@ header .soc div:hover a span{
 }
 #works .main-list-img img{
 	width: 100%;
-	height: 229px;
+	height: 272px;
 }
 #works .main-list h3{
 	font-size: 18px;
@@ -520,19 +531,24 @@ header .soc div:hover a span{
 	padding: 0;
 }
 #works .little-list{
-	width: 100%;
-	height: 198px;
+	width: 49.6%;
+	height: 100%;
 	background-color: black;
 	overflow: hidden;
 	padding: 0;
-	margin: 0 7px 3px 0;
+	margin: 0 3px 3px 0;
 }
 #works .little-list-img{
 	height: 100%;
 }
 #works .little-list-img img{
 	width: 100%;
-
+}
+#works .little-list:hover img{
+	width: 109.5%;
+}
+#works .little-list:nth-of-type(2), #works .little-list:nth-of-type(4){
+	margin-right: 0;
 }
 #works .little-list h3{
 	position: absolute;
@@ -547,27 +563,27 @@ header .soc div:hover a span{
 	margin: 0;
 }
 footer{
-	padding: 35px!important;
+	padding: 15px!important;
 	background-image: url(../img/footer-bg.jpg);
 	background-size: 100% 100%;
 	background-position: top center;
 	background-repeat: no-repeat;
 }
 footer .social {
+	display: flex;
+	justify-content: center;
 	margin-top: 15px;
 	margin-bottom: 10px;
-	display: flex;
-	justify-content: space-around;
 }
 footer .social .soc-block{
 	text-align: center;
 	width: 40px;
-	margin-right: 0;
+	margin-right: 10px;
 	height: 40px;
 	background-color: rgba(255, 255, 255, 0.1)
 }
 footer p{
-	font-size: 10px;
+	font-size: 8px;
 }
 }
 @media (min-width:481px) and (max-width:768px){
@@ -632,7 +648,7 @@ header .soc div:hover a span{
 }
 .list{
 	margin: 15px 0px 3px;
-	height: 220px;
+	height: 100%;
 }
 .list:first-of-type{
 	margin-left: 0px;
@@ -641,13 +657,9 @@ header .soc div:hover a span{
 	width: 100%;
 	height: 100%;
 }
-.list .list-img img{
-	width: 100%;
-	height: 100%;
-}
+
 .list-img:hover img{
-	width: 115%;
-	height: 115%;
+	margin-bottom: -6%
 }
 .list h3{
 	font-size: 21px;
@@ -657,12 +669,12 @@ header .soc div:hover a span{
 }
 #works .main-list{
 	width: 100%;
-	height: 300px;
+	height: 330px;
 	margin-bottom: 3px;
 }
 #works .main-list-img img{
 	width: 100%;
-	height: 330px;
+	height: 438px;
 }
 #works .main-list h3{
 	font-size: 18px;
@@ -675,7 +687,7 @@ header .soc div:hover a span{
 }
 #works .little-list{
 	width: 49.6%;
-	height: 198px;
+	height: 100%;
 	background-color: black;
 	overflow: hidden;
 	padding: 0;
@@ -703,28 +715,32 @@ header .soc div:hover a span{
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 }
+#works .little-list:hover img{
+	margin-bottom: -11.2%;
+}
 footer{
-	padding: 35px!important;
-	background-image: url(../img/footer-bg.jpg);
-	background-size: 100% 100%;
-	background-position: top center;
-	background-repeat: no-repeat;
+	padding: 30px!important;
 }
 footer .social {
 	margin-top: 15px;
 	margin-bottom: 20px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 footer .social .soc-block{
 	text-align: center;
 	width: 40px;
-	margin-right: 0;
+	margin-right: 35px;
 	height: 40px;
 	background-color: rgba(255, 255, 255, 0.1)
 }
 footer p{
-	font-size: 14px;
+	font-size: 11px;
+}
+}
+@media (min-width:569px) and (max-width:768px){
+footer{
+	padding: 37px!important;
 }
 }
 @media (min-width:769px) and (max-width:992px){
@@ -769,7 +785,7 @@ header .soc div:hover{
 	padding: 0 9px;
 }
 #about{
-	height: 620px;
+	height: 595px;
 }
 #about .text{
 	width: 250px;
@@ -795,7 +811,7 @@ header .soc div:hover{
 	font-family: 'Roboto', sans-serif;
 	padding: 10px;
 	background-color: rgba(75,75,75,0.5);
-	height: 150px;
+	height: 120px;
 	width: 32%;
 }
 .list:first-of-type{
@@ -806,7 +822,7 @@ header .soc div:hover{
 }
 .list .list-img{
 	width: 100%;
-	height: 103px;
+	height: 84px;
 }
 #works{
 	padding: 30px;
@@ -818,7 +834,7 @@ header .soc div:hover{
 }
 #works .main-list-img img{
 	width: 100%;
-	height: 330px;
+	height: 530px;
 }
 #works .main-list h3{
 	font-size: 18px;
@@ -831,7 +847,7 @@ header .soc div:hover{
 }
 #works .little-list{
 	width: 49.6%;
-	height: 220px;
+	height: 100%;
 	background-color: black;
 	overflow: hidden;
 	padding: 0;
@@ -846,6 +862,9 @@ header .soc div:hover{
 #works .little-list-img img{
 	width: 100%;
 
+}
+#works .little-list:hover img{
+	margin-bottom: -11.1%;
 }
 #works .little-list h3{
 	position: absolute;
@@ -864,6 +883,7 @@ footer{
 }
 footer .social{
 	margin-bottom: 20px;
+	display: none;
 }
 footer ul li a{
 	font-size: 13px;
@@ -954,8 +974,15 @@ header .soc div:hover{
 	width: 50%;
 	margin: 0 3px 0 ;
 }
+#works .main-list-img img{
+	width: 100%;
+	height: 370px;
+}
 #works .little{
 	width: 49.3%;
+}
+#works .little-list:hover img{
+	margin-bottom: -11%;
 }
 #works .little-list{
 	width: 49.6%;
