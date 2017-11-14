@@ -344,7 +344,7 @@ header .soc div:hover a span{
 	margin: 0;
 }
 footer{
-	padding: 50px 170px 15px 170px!important;
+	padding: 35px 170px 15px 170px!important;
 	background-image: url(../img/footer-bg.jpg);
 	background-size: 100% 100%;
 	background-position: top center;
@@ -416,6 +416,31 @@ footer p{
 	}
 	#works .little-list h3{
 		font-size: 11px!important;
+	}
+}
+@media (min-width:320px) and (max-width:380px){
+	footer{
+		padding: 5px!important;
+	}
+}
+@media (min-width:381px) and (max-width:410px){
+	footer{
+		padding: 10px!important;
+	}
+}
+@media (min-width:411px) and (max-width:460px){
+	footer{
+		padding: 15px!important;
+	}
+}
+@media (min-width:460px) and (max-width:568px){
+	footer{
+		padding: 25px!important;
+	}
+}
+@media (min-width:616px) and (max-width:768px){
+	footer{
+		padding: 45px!important;
 	}
 }
 @media (min-width:320px) and (max-width:480px) {
@@ -563,7 +588,7 @@ header .soc div:hover a span{
 	margin: 0;
 }
 footer{
-	padding: 15px!important;
+	padding: 20px;
 	background-image: url(../img/footer-bg.jpg);
 	background-size: 100% 100%;
 	background-position: top center;
@@ -719,7 +744,7 @@ header .soc div:hover a span{
 	margin-bottom: -11.2%;
 }
 footer{
-	padding: 30px!important;
+	padding: 30px;
 }
 footer .social {
 	margin-top: 15px;
@@ -736,11 +761,6 @@ footer .social .soc-block{
 }
 footer p{
 	font-size: 11px;
-}
-}
-@media (min-width:569px) and (max-width:768px){
-footer{
-	padding: 37px!important;
 }
 }
 @media (min-width:769px) and (max-width:992px){
@@ -879,7 +899,7 @@ header .soc div:hover{
 	margin: 0;
 }
 footer{
-	padding: 50px 90px 15px 90px!important;
+	padding: 35px 90px 15px 90px!important;
 }
 footer .social{
 	margin-bottom: 20px;
@@ -1013,5 +1033,8 @@ header .soc div:hover{
 	font-size: 16px;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
+}
+footer{
+	padding: 35px;
 }
 }
