@@ -415,7 +415,7 @@ footer p{
 		height: 100% !important;
 	}
 	#works .little-list h3{
-		font-size: 11px!important;
+		font-size: 10px!important;
 	}
 }
 @media (min-width:320px) and (max-width:380px){
@@ -533,8 +533,8 @@ header .soc div:hover a span{
 	height: 100%;
 }
 .list-img:hover img{
-	margin-right: 0;
-	margin-left: 0;
+	width: 115%;
+	height: 115%;
 	margin-bottom: -6%;
 }
 #works{
